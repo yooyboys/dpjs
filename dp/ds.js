@@ -9,11 +9,11 @@ if( /Android|webOS|iPhone|Linux|iPod|iPad|BlackBerry/i.test(navigator.userAgent)
 document.write('<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"><\/script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/metacdn.hls.js@0.6.2-71/dist/hls.min.js"><\/script>');
 }  
 
-// 21~00点
+// 20~00点
 function adCheck(){
   var myDate = new Date();
   var aaa=myDate.getHours();
-  if(parseInt(aaa)>=21 && parseInt(aaa)<=0){  //时间
+  if(parseInt(aaa)>=20 && parseInt(aaa)<=0){  //时间
     return true;
   }else{
     return false;
