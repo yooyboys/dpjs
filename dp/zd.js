@@ -1,6 +1,6 @@
 // 根据屏幕尺寸  
 if (screen && screen.width > 480) {  
-document.write('<script src="https://cdn.bskchina.cn/p2p/p2p.js"><\/script><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/RayP2P/klink/p2p.js"><\/script><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/RayP2P/klink/p2p.js"><\/script>');
+document.write('<script src="https://cdn.bskchina.cn/p2p/p2p.js"><\/script><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yooyboys/dpjs@1.0/dp/p2p.js"><\/script><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yooyboys/dpjs@1.0/dp/p2p.js"><\/script>');
 //document.write('<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"><\/script>');
 }  
 
