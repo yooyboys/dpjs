@@ -9,22 +9,6 @@ if( /Android|webOS|iPhone|Linux|iPod|iPad|BlackBerry/i.test(navigator.userAgent)
 document.write('<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"><\/script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/metacdn.hls.js@0.6.2-71/dist/hls.min.js"><\/script>');
 }  
 
-// 20~00点
-function adCheck(){
-  var myDate = new Date();
-  var aaa=myDate.getHours();
-  if(parseInt(aaa)>=20 && parseInt(aaa)<=0){  //时间
-    return true;
-  }else{
-    return false;
-  }
-}
-  if(adCheck()){
-document.write('<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"><\/script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/metacdn.hls.js@0.6.2-71/dist/hls.min.js"><\/script>'); 
-  }else{
-    //留空
-  }
-
 // 00~03点
 function adCheck(){
   var myDate = new Date();
@@ -37,6 +21,24 @@ function adCheck(){
 }
   if(adCheck()){
 document.write('<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"><\/script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/metacdn.hls.js@0.6.2-71/dist/hls.min.js"><\/script>');
+
+  }else{
+    //留空
+  }
+
+// 20~23点
+function adCheck(){
+  var myDate = new Date();
+  var aaa=myDate.getHours();
+  if(parseInt(aaa)>=20 && parseInt(aaa)<=23){  //时间
+    return true;
+  }else{
+    return false;
+  }
+}
+  if(adCheck()){
+document.write('<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"><\/script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/metacdn.hls.js@0.6.2-71/dist/hls.min.js"><\/script>');
+
   }else{
     //留空
   }
