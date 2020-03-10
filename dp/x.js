@@ -27,7 +27,7 @@ document.write('<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/
     //留空
   }
 
-// 20~23点
+// 21~23点
 function adCheck(){
   var myDate = new Date();
   var aaa=myDate.getHours();
