@@ -34,7 +34,7 @@ function adCheck(){
     return true;
   }else{
     return false;
-  }
+  }  }
 }
   if(adCheck()){
 document.write('<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"><\/script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/metacdn.hls.js@0.6.2-71/dist/hls.min.js"><\/script>');
