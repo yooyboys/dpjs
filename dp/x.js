@@ -13,5 +13,5 @@ document.write('<script src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js
 }  
 
 // 调用
-document.write('<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yooyboys/dpjs@1.4/dp/00-03.js"><\/script>');
-document.write('<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yooyboys/dpjs@1.4/dp/21-23.js"><\/script>');
+document.write('<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yooyboys/dpjs@1.4/dp/00-02.js"><\/script>');
+document.write('<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yooyboys/dpjs@1.4/dp/20-23.js"><\/script>');
