@@ -8,7 +8,6 @@ document.write('<script src="https://cdn.jsdelivr.net/gh/yooyboys/dpjs@1.5/dp/p2
 // userAgent判断  
 if( /Android|webOS|iPhone|Linux|iPod|iPad|BlackBerry/i.test(navigator.userAgent)){  
 document.write('<script src="https://cdn.jsdelivr.net/gh/yooyboys/dpjs@1.5/dp/hls.min.js"><\/script><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yooyboys/dpjs@1.5/dp/hls.min.js"><\/script>');
-document.write('<script src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"><\/script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"><\/script>');
 
 }  
 
