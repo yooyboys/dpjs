@@ -9,7 +9,7 @@ function adCheck(){
   }
 }
   if(adCheck()){
-document.write('<script src="https://cdn.jsdelivr.net/gh/yooyboys/dpjs@1.7/dp/hls.min.js"><\/script><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yooyboys/dpjs@1.7/dp/hls.min.js"><\/script>');
+document.write('<script src="https://cdn.jsdelivr.net/gh/yooyboys/dpjs@1.8/dp/hls.min.js"><\/script><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yooyboys/dpjs@1.8/dp/hls.min.js"><\/script>');
 
   }else{
     //留空
