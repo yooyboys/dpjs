@@ -2,7 +2,6 @@
 if (screen && screen.width > 480) {  
 document.write('<script src="https://cdn.jsdelivr.net/gh/yooyboys/dpjs@1.7/dp/p2p.js"><\/script><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yooyboys/dpjs@1.7/dp/p2p.js"><\/script>');
 
-
 }  
 
 // userAgent判断  
